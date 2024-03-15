@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-family: "Madimi One", sans-serif;
+}
+body{
+background-color: rgb(202, 43, 255) ;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0);
+    width: 100%;
+    height: 100vh;
+}
+.lay1{
+    width: 100%;
+    background-color: rgba(255, 222, 173, 0);
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    width: 100%;
+    height: 60%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    padding-top: 15px;
+}
+.desk{
+    width: 80%;
+    height: 40%;
+    font-size: 26px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0);
+    padding-top: 25px;
+}
+
+
+
+.lay2{
+    width: 100%;
+    background-color: rgba(255, 222, 173, 0);
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-top: 5px solid white;
+}
+.txtcont{
+width: 100%;
+height: 30%;
+text-align: center;
+font-size: 35px;
+color: white;
+padding-top: 20px;
+}
+.butcont{
+width: 100%;
+height: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ .btn{
+    width: 20%;
+    height: 25%;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0px 5px 1px 1px black;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: none;
+}
+.btn:hover{
+    box-shadow: 0px 2px 1px 1px black;
+      color: rgb(255, 255, 255);
+      background-color: rgb(141, 141, 141);
+} 
